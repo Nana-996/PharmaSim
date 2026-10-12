@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+
+# Local environment & secrets
+.env
+.env.local
+.env.*.local
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Testing outputs & screenshots
+output/
+test-results/
+playwright-report/
+
+# Python cache (for openlife)
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
